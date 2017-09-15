@@ -1,0 +1,26 @@
+import React, { Component } from 'react';
+
+export class Element1 extends Component {
+    render() {
+        return (
+            <div>
+                <h1>Element 1</h1>
+            </div>
+        );
+    }
+}
+
+export class Element2 extends Component {
+    render() {
+        return (
+            <div>
+                <h1>Element 2</h1>
+            </div>
+        );
+    }
+}
+
+
+Then in the file that you want to use these two classes:
+
+import {Element1, Element2} from 'file path';
